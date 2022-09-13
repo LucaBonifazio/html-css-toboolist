@@ -55,9 +55,8 @@ body {
     display: inline-block;
   }
 
-  .editorial{
+  .label{
     border-radius: 5px;
-    background-color: rgb(31, 163, 245);
     padding: 5px;
     margin-left: 30px;
     font-size: 10px;
@@ -67,4 +66,24 @@ body {
 
   .content-sect{
     padding: 15px;
+  }
+
+  .blue{
+    background-color: rgb(31, 163, 245);
+  }
+
+  .violet{
+    background-color: rgb(99, 9, 86);
+  }
+
+  .green{
+    background-color: rgb(19, 180, 27);
+  }
+
+  .orange{
+    background-color: rgb(201, 83, 25);
+  }
+
+  .pink{
+    background-color: rgb(245, 0, 155);
   }
