@@ -11,7 +11,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: grey;
+    background-color: lightgrey;
   }
   
   .main-header{
@@ -32,20 +32,33 @@ body {
   }
 
   .little-header{
-    border-bottom: 1px solid black;
-    padding: 25px;
+    border-bottom: 1px solid lightgrey;
+    padding: 15px;
   }
 
   .task{
     border-radius: 5px;
     background-color: rgb(31, 163, 245);
     padding: 5px;
+    margin-left: 30px;
+    font-size: 15px;
     color: white;
   }
 
   .section{
     border-radius: 5px;
+    border: 1px solid lightgrey;
+    padding: 5px;
+    font-size: 15px;
+    color: lightgrey;
+    display: inline-block;
+  }
+
+  .editorial{
+    border-radius: 5px;
     background-color: rgb(31, 163, 245);
     padding: 5px;
+    margin-left: 30px;
+    font-size: 15px;
     color: white;
   }
